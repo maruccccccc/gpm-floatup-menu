@@ -1,0 +1,16 @@
+{
+  "name": "Google Play Music Mouseover Menu",
+  "description": "Show property menu with mouseover",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "js": ["js/gpm-floatup-menu.js", "libs/jquery-3.3.1.js"],
+      "css": [],
+      "matches": ["https://play.google.com/music/*"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "gpm-floatup-menu"
+  },
+  "manifest_version": 2
+}
